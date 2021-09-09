@@ -1,7 +1,6 @@
 import pokemonApi from "@/services/pokemonApi";
-import axios from "axios";
 
-const getPokemons = () => {
+export const getPokemons = () => {
     const pokemonsArr = Array.from(Array(650))
     return pokemonsArr.map((_, index) => index + 1)
 }
@@ -12,7 +11,7 @@ const getPokemonsOptions = async () => {
     return pokemons
 }
 
-const getPokemonsNames = async (pokemonsId = []) => {
+export const getPokemonsNames = async (pokemonsId = []) => {
     const resp = pokemonsId.map((id) => pokemonApi.get(`/${id}`))
     const [pokemon1, pokemon2, pokemon3, pokemon4] = await Promise.all(resp)
     return [

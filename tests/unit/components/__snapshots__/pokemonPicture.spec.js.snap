@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente PokemonPicture Debe de hacer prueba con el snapshot  1`] = `<div class="pokemon-container"><img class="hidden-pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg" alt="pokemon"></div>`;
+
+exports[`Pruebas del componente PokemonPicture Debe de mostrar la imagen oculta y el pokemon 100 1`] = `<div class="pokemon-container"><img class="hidden-pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg" alt="pokemon"></div>`;
